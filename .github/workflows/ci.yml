@@ -15,5 +15,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run unit tests
-        run: make test-unit
+      - name: Run test suite
+        run: make test
